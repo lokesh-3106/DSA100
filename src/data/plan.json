@@ -1,0 +1,1578 @@
+{
+"title": "DSA 100 — 90-Day LeetCode Journey",
+"start": "2026-10-01",
+"end": "2026-12-31",
+"problems": [
+{
+"id": 1,
+"topic": "Arrays",
+"title": "Two Sum",
+"pattern": "Hashing + lookup",
+"slug": "two-sum",
+"seed": {
+"bf": "O(n²) — check every pair",
+"opt": "Use HashMap to remember previously seen numbers",
+"mist": "Forgot to check complement before inserting"
+}
+},
+{
+"id": 2,
+"topic": "Arrays",
+"title": "Best Time to Buy and Sell Stock",
+"pattern": "One-pass min tracking",
+"slug": "best-time-to-buy-and-sell-stock"
+},
+{
+"id": 3,
+"topic": "Arrays",
+"title": "Contains Duplicate",
+"pattern": "HashSet / hashing",
+"slug": "contains-duplicate"
+},
+{
+"id": 4,
+"topic": "Arrays",
+"title": "Maximum Subarray",
+"pattern": "Kadane's algorithm",
+"slug": "maximum-subarray"
+},
+{
+"id": 5,
+"topic": "Arrays",
+"title": "Move Zeroes",
+"pattern": "Two pointers + in-place",
+"slug": "move-zeroes"
+},
+{
+"id": 6,
+"topic": "Arrays",
+"title": "Remove Duplicates from Sorted Array",
+"pattern": "Two pointers",
+"slug": "remove-duplicates-from-sorted-array"
+},
+{
+"id": 7,
+"topic": "Arrays",
+"title": "Merge Sorted Array",
+"pattern": "Two pointers + in-place",
+"slug": "merge-sorted-array"
+},
+{
+"id": 8,
+"topic": "Arrays",
+"title": "Majority Element",
+"pattern": "Counting / Boyer-Moore",
+"slug": "majority-element"
+},
+{
+"id": 9,
+"topic": "Arrays",
+"title": "Find Numbers with Even Number of Digits",
+"pattern": "Traversal",
+"slug": "find-numbers-with-even-number-of-digits"
+},
+{
+"id": 10,
+"topic": "Arrays",
+"title": "Running Sum of 1d Array",
+"pattern": "Prefix sum",
+"slug": "running-sum-of-1d-array"
+},
+{
+"id": 11,
+"topic": "Arrays",
+"title": "Find Pivot Index",
+"pattern": "Prefix sum",
+"slug": "find-pivot-index"
+},
+{
+"id": 12,
+"topic": "Arrays",
+"title": "Binary Search",
+"pattern": "Binary search",
+"slug": "binary-search"
+},
+{
+"id": 13,
+"topic": "Arrays",
+"title": "Search Insert Position",
+"pattern": "Binary search",
+"slug": "search-insert-position"
+},
+{
+"id": 14,
+"topic": "Arrays",
+"title": "Squares of a Sorted Array",
+"pattern": "Two pointers",
+"slug": "squares-of-a-sorted-array"
+},
+{
+"id": 15,
+"topic": "Strings",
+"title": "Valid Anagram",
+"pattern": "Frequency counting / hashing",
+"slug": "valid-anagram"
+},
+{
+"id": 16,
+"topic": "Strings",
+"title": "Valid Palindrome",
+"pattern": "Two pointers",
+"slug": "valid-palindrome"
+},
+{
+"id": 17,
+"topic": "Strings",
+"title": "Longest Common Prefix",
+"pattern": "String traversal",
+"slug": "longest-common-prefix"
+},
+{
+"id": 18,
+"topic": "Strings",
+"title": "First Unique Character in a String",
+"pattern": "Frequency counting",
+"slug": "first-unique-character-in-a-string"
+},
+{
+"id": 19,
+"topic": "Strings",
+"title": "Reverse String",
+"pattern": "Two pointers / in-place",
+"slug": "reverse-string"
+},
+{
+"id": 20,
+"topic": "Strings",
+"title": "Ransom Note",
+"pattern": "Frequency counting",
+"slug": "ransom-note"
+},
+{
+"id": 21,
+"topic": "Strings",
+"title": "Is Subsequence",
+"pattern": "Two pointers",
+"slug": "is-subsequence"
+},
+{
+"id": 22,
+"topic": "Strings",
+"title": "Longest Substring Without Repeating Characters",
+"pattern": "Sliding window + hashing",
+"slug": "longest-substring-without-repeating-characters"
+},
+{
+"id": 23,
+"topic": "Hashing",
+"title": "Intersection of Two Arrays",
+"pattern": "HashSet",
+"slug": "intersection-of-two-arrays"
+},
+{
+"id": 24,
+"topic": "Hashing",
+"title": "Happy Number",
+"pattern": "HashSet / cycle detection",
+"slug": "happy-number"
+},
+{
+"id": 25,
+"topic": "Hashing",
+"title": "Group Anagrams",
+"pattern": "HashMap + frequency/signature",
+"slug": "group-anagrams"
+},
+{
+"id": 26,
+"topic": "Hashing",
+"title": "Top K Frequent Elements",
+"pattern": "Frequency map + heap/buckets",
+"slug": "top-k-frequent-elements"
+},
+{
+"id": 27,
+"topic": "Hashing",
+"title": "Longest Consecutive Sequence",
+"pattern": "HashSet",
+"slug": "longest-consecutive-sequence"
+},
+{
+"id": 28,
+"topic": "Hashing",
+"title": "Contains Duplicate II",
+"pattern": "HashSet / sliding window",
+"slug": "contains-duplicate-ii"
+},
+{
+"id": 29,
+"topic": "Two Pointers",
+"title": "Two Sum II - Input Array Is Sorted",
+"pattern": "Two pointers",
+"slug": "two-sum-ii---input-array-is-sorted"
+},
+{
+"id": 30,
+"topic": "Two Pointers",
+"title": "3Sum",
+"pattern": "Two pointers + sorting",
+"slug": "3sum"
+},
+{
+"id": 31,
+"topic": "Two Pointers",
+"title": "Container With Most Water",
+"pattern": "Two pointers",
+"slug": "container-with-most-water"
+},
+{
+"id": 32,
+"topic": "Two Pointers",
+"title": "Remove Element",
+"pattern": "Two pointers / in-place",
+"slug": "remove-element"
+},
+{
+"id": 33,
+"topic": "Sliding Window",
+"title": "Maximum Average Subarray I",
+"pattern": "Fixed sliding window",
+"slug": "maximum-average-subarray-i"
+},
+{
+"id": 34,
+"topic": "Sliding Window",
+"title": "Minimum Size Subarray Sum",
+"pattern": "Variable sliding window",
+"slug": "minimum-size-subarray-sum"
+},
+{
+"id": 35,
+"topic": "Sliding Window",
+"title": "Permutation in String",
+"pattern": "Sliding window + frequency",
+"slug": "permutation-in-string"
+},
+{
+"id": 36,
+"topic": "Sliding Window",
+"title": "Longest Repeating Character Replacement",
+"pattern": "Sliding window + frequency",
+"slug": "longest-repeating-character-replacement"
+},
+{
+"id": 37,
+"topic": "Linked Lists",
+"title": "Reverse Linked List",
+"pattern": "Pointer manipulation",
+"slug": "reverse-linked-list"
+},
+{
+"id": 38,
+"topic": "Linked Lists",
+"title": "Merge Two Sorted Lists",
+"pattern": "Two pointers",
+"slug": "merge-two-sorted-lists"
+},
+{
+"id": 39,
+"topic": "Linked Lists",
+"title": "Linked List Cycle",
+"pattern": "Fast/slow pointers",
+"slug": "linked-list-cycle"
+},
+{
+"id": 40,
+"topic": "Linked Lists",
+"title": "Middle of the Linked List",
+"pattern": "Fast/slow pointers",
+"slug": "middle-of-the-linked-list"
+},
+{
+"id": 41,
+"topic": "Linked Lists",
+"title": "Remove Nth Node From End of List",
+"pattern": "Two pointers",
+"slug": "remove-nth-node-from-end-of-list"
+},
+{
+"id": 42,
+"topic": "Linked Lists",
+"title": "Palindrome Linked List",
+"pattern": "Fast/slow + reverse",
+"slug": "palindrome-linked-list"
+},
+{
+"id": 43,
+"topic": "Stack & Queue",
+"title": "Valid Parentheses",
+"pattern": "Stack",
+"slug": "valid-parentheses"
+},
+{
+"id": 44,
+"topic": "Stack & Queue",
+"title": "Min Stack",
+"pattern": "Stack + auxiliary state",
+"slug": "min-stack"
+},
+{
+"id": 45,
+"topic": "Stack & Queue",
+"title": "Implement Queue using Stacks",
+"pattern": "Stack simulation",
+"slug": "implement-queue-using-stacks"
+},
+{
+"id": 46,
+"topic": "Stack & Queue",
+"title": "Evaluate Reverse Polish Notation",
+"pattern": "Stack",
+"slug": "evaluate-reverse-polish-notation"
+},
+{
+"id": 47,
+"topic": "Stack & Queue",
+"title": "Daily Temperatures",
+"pattern": "Monotonic stack",
+"slug": "daily-temperatures"
+},
+{
+"id": 48,
+"topic": "Stack & Queue",
+"title": "Next Greater Element I",
+"pattern": "Monotonic stack",
+"slug": "next-greater-element-i"
+},
+{
+"id": 49,
+"topic": "Binary Search",
+"title": "First Bad Version",
+"pattern": "Binary search",
+"slug": "first-bad-version"
+},
+{
+"id": 50,
+"topic": "Binary Search",
+"title": "Find First and Last Position of Element in Sorted Array",
+"pattern": "Boundary binary search",
+"slug": "find-first-and-last-position-of-element-in-sorted-array"
+},
+{
+"id": 51,
+"topic": "Binary Search",
+"title": "Search in Rotated Sorted Array",
+"pattern": "Modified binary search",
+"slug": "search-in-rotated-sorted-array"
+},
+{
+"id": 52,
+"topic": "Binary Search",
+"title": "Find Minimum in Rotated Sorted Array",
+"pattern": "Modified binary search",
+"slug": "find-minimum-in-rotated-sorted-array"
+},
+{
+"id": 53,
+"topic": "Trees",
+"title": "Maximum Depth of Binary Tree",
+"pattern": "DFS recursion",
+"slug": "maximum-depth-of-binary-tree"
+},
+{
+"id": 54,
+"topic": "Trees",
+"title": "Invert Binary Tree",
+"pattern": "DFS",
+"slug": "invert-binary-tree"
+},
+{
+"id": 55,
+"topic": "Trees",
+"title": "Same Tree",
+"pattern": "DFS",
+"slug": "same-tree"
+},
+{
+"id": 56,
+"topic": "Trees",
+"title": "Binary Tree Inorder Traversal",
+"pattern": "DFS / stack",
+"slug": "binary-tree-inorder-traversal"
+},
+{
+"id": 57,
+"topic": "Trees",
+"title": "Binary Tree Preorder Traversal",
+"pattern": "DFS / stack",
+"slug": "binary-tree-preorder-traversal"
+},
+{
+"id": 58,
+"topic": "Trees",
+"title": "Binary Tree Level Order Traversal",
+"pattern": "BFS / queue",
+"slug": "binary-tree-level-order-traversal"
+},
+{
+"id": 59,
+"topic": "Trees",
+"title": "Validate Binary Search Tree",
+"pattern": "BST + recursion",
+"slug": "validate-binary-search-tree"
+},
+{
+"id": 60,
+"topic": "Trees",
+"title": "Lowest Common Ancestor of a Binary Search Tree",
+"pattern": "BST traversal",
+"slug": "lowest-common-ancestor-of-a-binary-search-tree"
+},
+{
+"id": 61,
+"topic": "Trees",
+"title": "Diameter of Binary Tree",
+"pattern": "DFS + height",
+"slug": "diameter-of-binary-tree"
+},
+{
+"id": 62,
+"topic": "Trees",
+"title": "Balanced Binary Tree",
+"pattern": "DFS + height",
+"slug": "balanced-binary-tree"
+},
+{
+"id": 63,
+"topic": "Heap / Priority Queue",
+"title": "Kth Largest Element in an Array",
+"pattern": "Heap / Quickselect concept",
+"slug": "kth-largest-element-in-an-array"
+},
+{
+"id": 64,
+"topic": "Heap / Priority Queue",
+"title": "Last Stone Weight",
+"pattern": "Max heap",
+"slug": "last-stone-weight"
+},
+{
+"id": 65,
+"topic": "Heap / Priority Queue",
+"title": "K Closest Points to Origin",
+"pattern": "Heap",
+"slug": "k-closest-points-to-origin"
+},
+{
+"id": 66,
+"topic": "Recursion & Backtracking",
+"title": "Climbing Stairs",
+"pattern": "Recursion / DP bridge",
+"slug": "climbing-stairs"
+},
+{
+"id": 67,
+"topic": "Recursion & Backtracking",
+"title": "Subsets",
+"pattern": "Backtracking",
+"slug": "subsets"
+},
+{
+"id": 68,
+"topic": "Recursion & Backtracking",
+"title": "Permutations",
+"pattern": "Backtracking",
+"slug": "permutations"
+},
+{
+"id": 69,
+"topic": "Recursion & Backtracking",
+"title": "Combination Sum",
+"pattern": "Backtracking",
+"slug": "combination-sum"
+},
+{
+"id": 70,
+"topic": "Recursion & Backtracking",
+"title": "Letter Combinations of a Phone Number",
+"pattern": "Backtracking",
+"slug": "letter-combinations-of-a-phone-number"
+},
+{
+"id": 71,
+"topic": "Recursion & Backtracking",
+"title": "Generate Parentheses",
+"pattern": "Backtracking",
+"slug": "generate-parentheses"
+},
+{
+"id": 72,
+"topic": "Intervals & Greedy",
+"title": "Merge Intervals",
+"pattern": "Intervals",
+"slug": "merge-intervals"
+},
+{
+"id": 73,
+"topic": "Intervals & Greedy",
+"title": "Insert Interval",
+"pattern": "Intervals",
+"slug": "insert-interval"
+},
+{
+"id": 74,
+"topic": "Intervals & Greedy",
+"title": "Non-overlapping Intervals",
+"pattern": "Greedy + intervals",
+"slug": "non-overlapping-intervals"
+},
+{
+"id": 75,
+"topic": "Intervals & Greedy",
+"title": "Jump Game",
+"pattern": "Greedy",
+"slug": "jump-game"
+},
+{
+"id": 76,
+"topic": "Graphs",
+"title": "Number of Islands",
+"pattern": "DFS/BFS",
+"slug": "number-of-islands"
+},
+{
+"id": 77,
+"topic": "Graphs",
+"title": "Clone Graph",
+"pattern": "DFS/BFS + HashMap",
+"slug": "clone-graph"
+},
+{
+"id": 78,
+"topic": "Graphs",
+"title": "Flood Fill",
+"pattern": "DFS/BFS",
+"slug": "flood-fill"
+},
+{
+"id": 79,
+"topic": "Graphs",
+"title": "Rotting Oranges",
+"pattern": "Multi-source BFS",
+"slug": "rotting-oranges"
+},
+{
+"id": 80,
+"topic": "Graphs",
+"title": "Course Schedule",
+"pattern": "Cycle detection / topological sort",
+"slug": "course-schedule"
+},
+{
+"id": 81,
+"topic": "Dynamic Programming",
+"title": "House Robber",
+"pattern": "1D DP",
+"slug": "house-robber"
+},
+{
+"id": 82,
+"topic": "Dynamic Programming",
+"title": "Maximum Product Subarray",
+"pattern": "DP/state tracking",
+"slug": "maximum-product-subarray"
+},
+{
+"id": 83,
+"topic": "Dynamic Programming",
+"title": "Coin Change",
+"pattern": "1D DP",
+"slug": "coin-change"
+},
+{
+"id": 84,
+"topic": "Dynamic Programming",
+"title": "Longest Increasing Subsequence",
+"pattern": "DP",
+"slug": "longest-increasing-subsequence"
+},
+{
+"id": 85,
+"topic": "Dynamic Programming",
+"title": "Longest Common Subsequence",
+"pattern": "2D DP",
+"slug": "longest-common-subsequence"
+},
+{
+"id": 86,
+"topic": "Dynamic Programming",
+"title": "Unique Paths",
+"pattern": "2D DP",
+"slug": "unique-paths"
+},
+{
+"id": 87,
+"topic": "Dynamic Programming",
+"title": "Partition Equal Subset Sum",
+"pattern": "0/1 knapsack DP",
+"slug": "partition-equal-subset-sum"
+},
+{
+"id": 88,
+"topic": "Arrays",
+"title": "Product of Array Except Self",
+"pattern": "Prefix/suffix products",
+"slug": "product-of-array-except-self"
+},
+{
+"id": 89,
+"topic": "Hashing",
+"title": "Subarray Sum Equals K",
+"pattern": "Prefix sum + HashMap",
+"slug": "subarray-sum-equals-k"
+},
+{
+"id": 90,
+"topic": "Hashing",
+"title": "Valid Sudoku",
+"pattern": "HashSet / validation",
+"slug": "valid-sudoku"
+},
+{
+"id": 91,
+"topic": "Sliding Window",
+"title": "Minimum Window Substring",
+"pattern": "Variable sliding window",
+"slug": "minimum-window-substring"
+},
+{
+"id": 92,
+"topic": "Linked Lists",
+"title": "Intersection of Two Linked Lists",
+"pattern": "Two pointers",
+"slug": "intersection-of-two-linked-lists"
+},
+{
+"id": 93,
+"topic": "Stack & Queue",
+"title": "Largest Rectangle in Histogram",
+"pattern": "Monotonic stack",
+"slug": "largest-rectangle-in-histogram"
+},
+{
+"id": 94,
+"topic": "Binary Search",
+"title": "Search a 2D Matrix",
+"pattern": "Binary search",
+"slug": "search-a-2d-matrix"
+},
+{
+"id": 95,
+"topic": "Trees",
+"title": "Symmetric Tree",
+"pattern": "DFS/BFS",
+"slug": "symmetric-tree"
+},
+{
+"id": 96,
+"topic": "Trees",
+"title": "Path Sum",
+"pattern": "DFS",
+"slug": "path-sum"
+},
+{
+"id": 97,
+"topic": "Heap / Priority Queue",
+"title": "Find Median from Data Stream",
+"pattern": "Two heaps",
+"slug": "find-median-from-data-stream"
+},
+{
+"id": 98,
+"topic": "Recursion & Backtracking",
+"title": "Word Search",
+"pattern": "Backtracking",
+"slug": "word-search"
+},
+{
+"id": 99,
+"topic": "Intervals & Greedy",
+"title": "Meeting Rooms",
+"pattern": "Intervals + sorting",
+"slug": "meeting-rooms"
+},
+{
+"id": 100,
+"topic": "Graphs",
+"title": "Pacific Atlantic Water Flow",
+"pattern": "DFS/BFS",
+"slug": "pacific-atlantic-water-flow"
+}
+],
+"calendar": [
+{
+"date": "2026-10-01",
+"day": "Thursday",
+"focus": "Learn concept + solve",
+"pid": 1
+},
+{
+"date": "2026-10-02",
+"day": "Friday",
+"focus": "Learn concept + solve",
+"pid": 2
+},
+{
+"date": "2026-10-03",
+"day": "Saturday",
+"focus": "New problem + weekly review",
+"pid": 3
+},
+{
+"date": "2026-10-04",
+"day": "Sunday",
+"focus": "Revision + re-solve old problems",
+"pid": 4
+},
+{
+"date": "2026-10-05",
+"day": "Monday",
+"focus": "Learn concept + solve",
+"pid": 5
+},
+{
+"date": "2026-10-06",
+"day": "Tuesday",
+"focus": "Learn concept + solve",
+"pid": 6
+},
+{
+"date": "2026-10-07",
+"day": "Wednesday",
+"focus": "Learn concept + solve",
+"pid": 7
+},
+{
+"date": "2026-10-08",
+"day": "Thursday",
+"focus": "Learn concept + solve",
+"pid": 8
+},
+{
+"date": "2026-10-09",
+"day": "Friday",
+"focus": "Learn concept + solve",
+"pid": 9
+},
+{
+"date": "2026-10-10",
+"day": "Saturday",
+"focus": "New problem + weekly review",
+"pid": 10
+},
+{
+"date": "2026-10-10",
+"day": "Saturday",
+"focus": "New problem + weekly review",
+"pid": 11
+},
+{
+"date": "2026-10-11",
+"day": "Sunday",
+"focus": "Revision + re-solve old problems",
+"pid": 12
+},
+{
+"date": "2026-10-12",
+"day": "Monday",
+"focus": "Learn concept + solve",
+"pid": 13
+},
+{
+"date": "2026-10-13",
+"day": "Tuesday",
+"focus": "Learn concept + solve",
+"pid": 14
+},
+{
+"date": "2026-10-14",
+"day": "Wednesday",
+"focus": "Learn concept + solve",
+"pid": 15
+},
+{
+"date": "2026-10-15",
+"day": "Thursday",
+"focus": "Learn concept + solve",
+"pid": 16
+},
+{
+"date": "2026-10-16",
+"day": "Friday",
+"focus": "Learn concept + solve",
+"pid": 17
+},
+{
+"date": "2026-10-17",
+"day": "Saturday",
+"focus": "New problem + weekly review",
+"pid": 18
+},
+{
+"date": "2026-10-18",
+"day": "Sunday",
+"focus": "Revision + re-solve old problems",
+"pid": 19
+},
+{
+"date": "2026-10-19",
+"day": "Monday",
+"focus": "Learn concept + solve",
+"pid": 20
+},
+{
+"date": "2026-10-20",
+"day": "Tuesday",
+"focus": "Learn concept + solve",
+"pid": 21
+},
+{
+"date": "2026-10-20",
+"day": "Tuesday",
+"focus": "Learn concept + solve",
+"pid": 22
+},
+{
+"date": "2026-10-21",
+"day": "Wednesday",
+"focus": "Learn concept + solve",
+"pid": 23
+},
+{
+"date": "2026-10-22",
+"day": "Thursday",
+"focus": "Learn concept + solve",
+"pid": 24
+},
+{
+"date": "2026-10-23",
+"day": "Friday",
+"focus": "Learn concept + solve",
+"pid": 25
+},
+{
+"date": "2026-10-24",
+"day": "Saturday",
+"focus": "New problem + weekly review",
+"pid": 26
+},
+{
+"date": "2026-10-25",
+"day": "Sunday",
+"focus": "Revision + re-solve old problems",
+"pid": 27
+},
+{
+"date": "2026-10-26",
+"day": "Monday",
+"focus": "Learn concept + solve",
+"pid": 28
+},
+{
+"date": "2026-10-27",
+"day": "Tuesday",
+"focus": "Learn concept + solve",
+"pid": 29
+},
+{
+"date": "2026-10-28",
+"day": "Wednesday",
+"focus": "Learn concept + solve",
+"pid": 30
+},
+{
+"date": "2026-10-29",
+"day": "Thursday",
+"focus": "Learn concept + solve",
+"pid": 31
+},
+{
+"date": "2026-10-30",
+"day": "Friday",
+"focus": "Learn concept + solve",
+"pid": 32
+},
+{
+"date": "2026-10-30",
+"day": "Friday",
+"focus": "Learn concept + solve",
+"pid": 33
+},
+{
+"date": "2026-10-31",
+"day": "Saturday",
+"focus": "New problem + weekly review",
+"pid": 34
+},
+{
+"date": "2026-11-01",
+"day": "Sunday",
+"focus": "Revision + re-solve old problems",
+"pid": 35
+},
+{
+"date": "2026-11-02",
+"day": "Monday",
+"focus": "Learn concept + solve",
+"pid": 36
+},
+{
+"date": "2026-11-03",
+"day": "Tuesday",
+"focus": "Learn concept + solve",
+"pid": 37
+},
+{
+"date": "2026-11-04",
+"day": "Wednesday",
+"focus": "Learn concept + solve",
+"pid": 38
+},
+{
+"date": "2026-11-05",
+"day": "Thursday",
+"focus": "Learn concept + solve",
+"pid": 39
+},
+{
+"date": "2026-11-06",
+"day": "Friday",
+"focus": "Learn concept + solve",
+"pid": 40
+},
+{
+"date": "2026-11-07",
+"day": "Saturday",
+"focus": "New problem + weekly review",
+"pid": 41
+},
+{
+"date": "2026-11-08",
+"day": "Sunday",
+"focus": "Revision + re-solve old problems",
+"pid": 42
+},
+{
+"date": "2026-11-09",
+"day": "Monday",
+"focus": "Learn concept + solve",
+"pid": 43
+},
+{
+"date": "2026-11-10",
+"day": "Tuesday",
+"focus": "Learn concept + solve",
+"pid": 44
+},
+{
+"date": "2026-11-10",
+"day": "Tuesday",
+"focus": "Learn concept + solve",
+"pid": 45
+},
+{
+"date": "2026-11-11",
+"day": "Wednesday",
+"focus": "Learn concept + solve",
+"pid": 46
+},
+{
+"date": "2026-11-12",
+"day": "Thursday",
+"focus": "Learn concept + solve",
+"pid": 47
+},
+{
+"date": "2026-11-13",
+"day": "Friday",
+"focus": "Learn concept + solve",
+"pid": 48
+},
+{
+"date": "2026-11-14",
+"day": "Saturday",
+"focus": "New problem + weekly review",
+"pid": 49
+},
+{
+"date": "2026-11-15",
+"day": "Sunday",
+"focus": "Revision + re-solve old problems",
+"pid": 50
+},
+{
+"date": "2026-11-16",
+"day": "Monday",
+"focus": "Learn concept + solve",
+"pid": 51
+},
+{
+"date": "2026-11-17",
+"day": "Tuesday",
+"focus": "Learn concept + solve",
+"pid": 52
+},
+{
+"date": "2026-11-18",
+"day": "Wednesday",
+"focus": "Learn concept + solve",
+"pid": 53
+},
+{
+"date": "2026-11-19",
+"day": "Thursday",
+"focus": "Learn concept + solve",
+"pid": 54
+},
+{
+"date": "2026-11-20",
+"day": "Friday",
+"focus": "Learn concept + solve",
+"pid": 55
+},
+{
+"date": "2026-11-20",
+"day": "Friday",
+"focus": "Learn concept + solve",
+"pid": 56
+},
+{
+"date": "2026-11-21",
+"day": "Saturday",
+"focus": "New problem + weekly review",
+"pid": 57
+},
+{
+"date": "2026-11-22",
+"day": "Sunday",
+"focus": "Revision + re-solve old problems",
+"pid": 58
+},
+{
+"date": "2026-11-23",
+"day": "Monday",
+"focus": "Learn concept + solve",
+"pid": 59
+},
+{
+"date": "2026-11-24",
+"day": "Tuesday",
+"focus": "Learn concept + solve",
+"pid": 60
+},
+{
+"date": "2026-11-25",
+"day": "Wednesday",
+"focus": "Learn concept + solve",
+"pid": 61
+},
+{
+"date": "2026-11-26",
+"day": "Thursday",
+"focus": "Learn concept + solve",
+"pid": 62
+},
+{
+"date": "2026-11-27",
+"day": "Friday",
+"focus": "Learn concept + solve",
+"pid": 63
+},
+{
+"date": "2026-11-28",
+"day": "Saturday",
+"focus": "New problem + weekly review",
+"pid": 64
+},
+{
+"date": "2026-11-29",
+"day": "Sunday",
+"focus": "Revision + re-solve old problems",
+"pid": 65
+},
+{
+"date": "2026-11-30",
+"day": "Monday",
+"focus": "Learn concept + solve",
+"pid": 66
+},
+{
+"date": "2026-11-30",
+"day": "Monday",
+"focus": "Learn concept + solve",
+"pid": 67
+},
+{
+"date": "2026-12-01",
+"day": "Tuesday",
+"focus": "Learn concept + solve",
+"pid": 68
+},
+{
+"date": "2026-12-02",
+"day": "Wednesday",
+"focus": "Learn concept + solve",
+"pid": 69
+},
+{
+"date": "2026-12-03",
+"day": "Thursday",
+"focus": "Learn concept + solve",
+"pid": 70
+},
+{
+"date": "2026-12-04",
+"day": "Friday",
+"focus": "Learn concept + solve",
+"pid": 71
+},
+{
+"date": "2026-12-05",
+"day": "Saturday",
+"focus": "New problem + weekly review",
+"pid": 72
+},
+{
+"date": "2026-12-06",
+"day": "Sunday",
+"focus": "Revision + re-solve old problems",
+"pid": 73
+},
+{
+"date": "2026-12-07",
+"day": "Monday",
+"focus": "Learn concept + solve",
+"pid": 74
+},
+{
+"date": "2026-12-08",
+"day": "Tuesday",
+"focus": "Learn concept + solve",
+"pid": 75
+},
+{
+"date": "2026-12-09",
+"day": "Wednesday",
+"focus": "Learn concept + solve",
+"pid": 76
+},
+{
+"date": "2026-12-10",
+"day": "Thursday",
+"focus": "Learn concept + solve",
+"pid": 77
+},
+{
+"date": "2026-12-10",
+"day": "Thursday",
+"focus": "Learn concept + solve",
+"pid": 78
+},
+{
+"date": "2026-12-11",
+"day": "Friday",
+"focus": "Learn concept + solve",
+"pid": 79
+},
+{
+"date": "2026-12-12",
+"day": "Saturday",
+"focus": "New problem + weekly review",
+"pid": 80
+},
+{
+"date": "2026-12-13",
+"day": "Sunday",
+"focus": "Revision + re-solve old problems",
+"pid": 81
+},
+{
+"date": "2026-12-14",
+"day": "Monday",
+"focus": "Learn concept + solve",
+"pid": 82
+},
+{
+"date": "2026-12-15",
+"day": "Tuesday",
+"focus": "Learn concept + solve",
+"pid": 83
+},
+{
+"date": "2026-12-16",
+"day": "Wednesday",
+"focus": "Learn concept + solve",
+"pid": 84
+},
+{
+"date": "2026-12-17",
+"day": "Thursday",
+"focus": "Learn concept + solve",
+"pid": 85
+},
+{
+"date": "2026-12-18",
+"day": "Friday",
+"focus": "Learn concept + solve",
+"pid": 86
+},
+{
+"date": "2026-12-18",
+"day": "Friday",
+"focus": "Learn concept + solve",
+"pid": 87
+},
+{
+"date": "2026-12-19",
+"day": "Saturday",
+"focus": "New problem + weekly review",
+"pid": 88
+},
+{
+"date": "2026-12-20",
+"day": "Sunday",
+"focus": "Revision + re-solve old problems",
+"pid": 89
+},
+{
+"date": "2026-12-21",
+"day": "Monday",
+"focus": "Learn concept + solve",
+"pid": 90
+},
+{
+"date": "2026-12-22",
+"day": "Tuesday",
+"focus": "Learn concept + solve",
+"pid": 91
+},
+{
+"date": "2026-12-23",
+"day": "Wednesday",
+"focus": "Learn concept + solve",
+"pid": 92
+},
+{
+"date": "2026-12-24",
+"day": "Thursday",
+"focus": "Learn concept + solve",
+"pid": 93
+},
+{
+"date": "2026-12-24",
+"day": "Thursday",
+"focus": "Learn concept + solve",
+"pid": 94
+},
+{
+"date": "2026-12-25",
+"day": "Friday",
+"focus": "Learn concept + solve",
+"pid": 95
+},
+{
+"date": "2026-12-26",
+"day": "Saturday",
+"focus": "New problem + weekly review",
+"pid": 96
+},
+{
+"date": "2026-12-27",
+"day": "Sunday",
+"focus": "Revision + re-solve old problems",
+"pid": 97
+},
+{
+"date": "2026-12-28",
+"day": "Monday",
+"focus": "Learn concept + solve",
+"pid": 98
+},
+{
+"date": "2026-12-29",
+"day": "Tuesday",
+"focus": "Learn concept + solve",
+"pid": 99
+},
+{
+"date": "2026-12-29",
+"day": "Tuesday",
+"focus": "Learn concept + solve",
+"pid": 100
+},
+{
+"date": "2026-12-30",
+"day": "Wednesday",
+"focus": "Full 100-problem review",
+"pid": null
+},
+{
+"date": "2026-12-31",
+"day": "Thursday",
+"focus": "Final review + plan 2027",
+"pid": null
+}
+],
+"targets": [
+{
+"month": "October",
+"range": "Oct 1–31",
+"target": 34,
+"goal": "Arrays, Strings, Hashing, Two Pointers"
+},
+{
+"month": "November",
+"range": "Nov 1–30",
+"target": 33,
+"goal": "Sliding Window, Linked Lists, Stack/Queue, Binary Search, Trees"
+},
+{
+"month": "December",
+"range": "Dec 1–31",
+"target": 33,
+"goal": "Trees, Heap, Backtracking, Greedy, Graphs, DP + revision"
+}
+],
+"roadmap": [
+{
+"topic": "Arrays",
+"concepts": [
+"Array basics: indexing, traversal, update, size",
+"Min/max, sum, counting, linear search",
+"In-place manipulation",
+"Hashing / frequency counting",
+"Two pointers",
+"Prefix sums",
+"Kadane's algorithm",
+"Basic sorting concepts"
+]
+},
+{
+"topic": "Strings",
+"concepts": [
+"String traversal and indexing",
+"Character frequency counting",
+"Palindrome checking",
+"String construction/manipulation",
+"Hashing with strings",
+"Two pointers on strings",
+"Sliding window basics"
+]
+},
+{
+"topic": "Hashing",
+"concepts": [
+"HashMap vs HashSet",
+"Key-value lookup",
+"Frequency maps",
+"Set membership",
+"Using extra space to reduce time",
+"Average O(1) lookup intuition"
+]
+},
+{
+"topic": "Two Pointers",
+"concepts": [
+"Left/right pointers",
+"Fast/slow pointers",
+"Sorted-array pointer movement",
+"In-place partitioning",
+"When pointer movement is safe"
+]
+},
+{
+"topic": "Sliding Window",
+"concepts": [
+"Fixed-size windows",
+"Variable-size windows",
+"Expand/shrink logic",
+"Frequency maps inside a window",
+"Window invariants"
+]
+},
+{
+"topic": "Linked Lists",
+"concepts": [
+"Node structure and pointers",
+"malloc and dynamic allocation",
+"Traversal",
+"Insertion/deletion",
+"Head pointer handling",
+"Fast/slow pointers",
+"Reversing a linked list"
+]
+},
+{
+"topic": "Stack & Queue",
+"concepts": [
+"LIFO vs FIFO",
+"Stack operations",
+"Queue operations",
+"Array/linked-list implementation",
+"Monotonic stack basics",
+"Using stacks for expression problems"
+]
+},
+{
+"topic": "Binary Search",
+"concepts": [
+"Sorted search space",
+"Low/mid/high",
+"Loop invariants",
+"Boundary handling",
+"First/last occurrence",
+"Binary search on answer (intro)"
+]
+},
+{
+"topic": "Trees",
+"concepts": [
+"Tree terminology",
+"Binary tree node structure",
+"Recursion on trees",
+"DFS: preorder/inorder/postorder",
+"BFS / level order",
+"BST property",
+"Tree height/depth",
+"Balanced trees basics"
+]
+},
+{
+"topic": "Heap / Priority Queue",
+"concepts": [
+"Min heap vs max heap",
+"Heap insertion/removal",
+"Top-K pattern",
+"Priority queues",
+"When heap is better than sorting"
+]
+},
+{
+"topic": "Recursion & Backtracking",
+"concepts": [
+"Base case and recursive case",
+"Call stack",
+"Decision trees",
+"Choose/explore/unchoose",
+"Backtracking state",
+"Avoiding duplicate states"
+]
+},
+{
+"topic": "Intervals & Greedy",
+"concepts": [
+"Interval representation",
+"Sorting by start/end",
+"Merge intervals",
+"Overlap detection",
+"Greedy choice and proof intuition",
+"Choosing locally optimal actions"
+]
+},
+{
+"topic": "Graphs",
+"concepts": [
+"Graph terminology",
+"Adjacency list/matrix",
+"DFS",
+"BFS",
+"Visited set",
+"Connected components",
+"Cycle detection basics",
+"Topological sort intuition"
+]
+},
+{
+"topic": "Dynamic Programming",
+"concepts": [
+"Overlapping subproblems",
+"Optimal substructure",
+"State definition",
+"Transition/recurrence",
+"Memoization",
+"Tabulation",
+"1D DP",
+"Basic 2D DP"
+]
+}
+],
+"routine": [
+{
+"time": "30–45 min",
+"task": "Learn today's concept/pattern",
+"rule": "Understand before coding."
+},
+{
+"time": "30–45 min",
+"task": "Attempt LeetCode",
+"rule": "No solution for the first ~20 minutes."
+},
+{
+"time": "20–30 min",
+"task": "Implement + test in C",
+"rule": "Dry-run with small examples."
+},
+{
+"time": "10 min",
+"task": "Notebook",
+"rule": "Write exactly the 5 requested items."
+},
+{
+"time": "15–20 min",
+"task": "Revision",
+"rule": "Re-solve one older problem on review days."
+}
+],
+"steps": [
+{
+"n": "1",
+"method": "Understand the concept",
+"what": "Know the data structure/pattern before coding."
+},
+{
+"n": "2",
+"method": "Read the problem",
+"what": "Identify input, output, constraints, and a small example."
+},
+{
+"n": "3",
+"method": "Think on paper",
+"what": "Describe a brute-force solution in plain language."
+},
+{
+"n": "4",
+"method": "Find the pattern",
+"what": "Ask whether hashing, two pointers, sliding window, binary search, etc. applies."
+},
+{
+"n": "5",
+"method": "Code yourself",
+"what": "Implement in C without copying."
+},
+{
+"n": "6",
+"method": "If stuck",
+"what": "Try about 20 minutes, then use a hint/solution; close it and re-code yourself."
+},
+{
+"n": "7",
+"method": "Re-solve",
+"what": "Re-solve after 2–3 days and again the following week."
+},
+{
+"n": "8",
+"method": "Record five things",
+"what": "Problem, Pattern, Brute force, Optimized idea, My mistake."
+}
+]
+}

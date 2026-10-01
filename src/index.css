@@ -1,0 +1,7 @@
+@tailwind base;@tailwind components;@tailwind utilities;
+@layer components{
+.card{@apply rounded-xl border border-zinc-800 bg-zinc-900/60 p-4}
+.btn{@apply inline-flex items-center gap-1.5 rounded-lg border border-zinc-700 px-3 py-1.5 text-sm hover:bg-zinc-800 transition}
+.btn-p{@apply border-emerald-600 bg-emerald-600/20 text-emerald-300 hover:bg-emerald-600/30}
+.inp{@apply w-full rounded-lg border border-zinc-700 bg-zinc-950 px-3 py-2 text-sm outline-none focus:border-emerald-500}}
+body{font-family:Inter,system-ui,sans-serif;color:#e4e4e7}
